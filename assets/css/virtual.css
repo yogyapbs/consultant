@@ -1549,3 +1549,31 @@ a:hover, a:active {
     /* align-items: center; */
     justify-content: center;
 }
+
+.img-soc{
+    width: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-set{
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .h-set {
+     height: 200px;
+    }
+  }
+
+.des-pro{
+    height: 500px;
+    background-size: cover;
+    background-position: left;
+    justify-content: start;
+    overflow: hidden;
+}
